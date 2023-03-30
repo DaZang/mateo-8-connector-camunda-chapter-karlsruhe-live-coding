@@ -1,0 +1,44 @@
+{
+  "$schema": "https://unpkg.com/@camunda/zeebe-element-templates-json-schema/resources/schema.json",
+  "name": "mateo-connector-a",
+  "id": "e82fb8d7-ff0e-4c2b-b6be-5992275884e8",
+  "description": "Ein Connector für mateo-RPA-Bots",
+  "version": 1,
+  "documentationRef": "https://docs.camunda.io/docs/components/connectors/out-of-the-box-connectors/available-connectors-overview/",
+  "icon": {
+    "contents": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2aWV3Qm94PSI4OC41NzUgMjIuNzU4IDMwOC4yMzcgMjc5Ljg2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iVW5iZW5hbm50ZXJfVmVybGF1Zl8xNC00IiB4MT0iMjY1LjI5IiB5MT0iMjE0LjM4IiB4Mj0iMjY3Ljg5IiB5Mj0iMjIuMDkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgMSwgLTQyLjM2NDgxLCAxNy4xNzc0MjMpIiB4bGluazpocmVmPSIjVW5iZW5hbm50ZXJfVmVybGF1Zl8xNCIvPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJVbmJlbmFubnRlcl9WZXJsYXVmXzE0IiB4MT0iNDMzLjMyIiB5MT0iMzQ5LjA5IiB4Mj0iNDEwLjYxIiB5Mj0iNDgzLjM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxLCAwLCAwLCAxLCAtMjEuODQxNzY2LCA4LjkxODM5MikiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNkZmFhNDAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZDM4MDJhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0gMzczLjQwOCAzMDIuNjE4IEwgMTExLjk4OCAzMDIuNjE4IEMgOTguMjQgMzAyLjYxNCA4Ny40NTMgMjkwLjgyMyA4OC42NjggMjc3LjEyOCBMIDEwMS45NTggMTI4LjEyOCBDIDEwMy44MTcgMTA3LjI3MyAxMjEuMjkxIDkxLjI4OCAxNDIuMjI4IDkxLjI4OCBMIDM0My4xNTggOTEuMjg4IEMgMzY0LjA5OCA5MS4yODQgMzgxLjU3NCAxMDcuMjcxIDM4My40MjggMTI4LjEyOCBMIDM5Ni43MTggMjc3LjEyOCBDIDM5Ny45MzMgMjkwLjgxOSAzODcuMTUzIDMwMi42MDggMzczLjQwOCAzMDIuNjE4IFoiIHN0eWxlPSJmaWxsOiByZ2IoMTI4LCAxODksIDE2OSk7Ii8+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB4PSIxNjkuODI4IiB3aWR0aD0iMjEuMTMiIGhlaWdodD0iOTQuMDEiIHJ4PSIxMC41NyIgc3R5bGU9ImZpbGw6IHJnYigxMjgsIDE4OSwgMTY5KTsiIHk9IjIyLjc1OCIvPgogIDxwYXRoIGNsYXNzPSJjbHMtOCIgZD0iTSAzNTUuMTE3IDI3Mi41NTkgTCAxMzMuNDA3IDI3Mi41NTkgQyAxMjYuMTY4IDI3Mi41NTggMTIwLjQwOSAyNjYuNDg5IDEyMC43ODcgMjU5LjI1OSBMIDEyNy40NzcgMTM1LjM1OSBDIDEyNy44MTMgMTI4LjYzNSAxMzMuMzY1IDEyMy4zNTYgMTQwLjA5NyAxMjMuMzU5IEwgMzQ4LjQwNyAxMjMuMzU5IEMgMzU1LjE0IDEyMy4zNTYgMzYwLjY5MSAxMjguNjM1IDM2MS4wMjcgMTM1LjM1OSBMIDM2Ny43MzcgMjU5LjI1OSBDIDM2OC4xMTUgMjY2LjQ4OSAzNjIuMzU2IDI3Mi41NTggMzU1LjExNyAyNzIuNTU5IFoiIHN0eWxlPSJmaWxsOiB1cmwoI1VuYmVuYW5udGVyX1ZlcmxhdWZfMTQtNCk7Ii8+CiAgPHBhdGggY2xhc3M9ImNscy0xMSIgZD0iTSAyMDEuODE4IDIzNS40MTggQyAyMDEuODE4IDIzNS40MTggMjQxLjE1OCAyNzEuMzU4IDI4NC4wNjggMjM1LjQxOCIgc3R5bGU9ImZpbGw6IG5vbmU7IHN0cm9rZTogcmdiKDE5OCwgNTQsIDc5KTsgc3Ryb2tlLWxpbmVjYXA6IHJvdW5kOyBzdHJva2UtbWl0ZXJsaW1pdDogMTA7IHN0cm9rZS13aWR0aDogNHB4OyIvPgogIDxlbGxpcHNlIGNsYXNzPSJjbHMtOSIgY3g9IjE5OC4yMDgiIGN5PSIxODMuNDc4IiByeD0iMjEuMyIgcnk9IjMwLjc1IiBzdHlsZT0iZmlsbDogcmdiKDE5OCwgNTQsIDc5KTsiLz4KICA8ZWxsaXBzZSBjbGFzcz0iY2xzLTkiIGN4PSIyNjMuNjg4IiBjeT0iMTgzLjQ3OCIgcng9IjIxLjMiIHJ5PSIzMC43NSIgc3R5bGU9ImZpbGw6IHJnYigxOTgsIDU0LCA3OSk7Ii8+Cjwvc3ZnPg=="
+  },
+  "category": {
+    "id": "viadeeconnectors",
+    "name": "viadee-Connectors"
+  },
+  "appliesTo": [
+    "bpmn:Task"
+  ],
+  "elementType": {
+    "value": "bpmn:ServiceTask"
+  },
+  "groups": [
+    {
+      "id": "mateoscript",
+      "label": "mateo-Skript"
+    }
+  ],
+  "properties": [
+    {
+      "type": "Hidden",
+      "value": "de.viadee:mateo:1",
+      "binding": {
+        "type": "zeebe:taskDefinition:type"
+      }
+    },
+    {
+      "label": "mateo-Skriptname",
+      "group": "mateoscript",
+      "binding": {
+        "type": "zeebe:input",
+        "name": "scriptName"
+      }
+    }
+  ]
+}
